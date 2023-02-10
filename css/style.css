@@ -9,6 +9,8 @@ header{
 /* main  */
 .odd_section{
     background-color: #1abc9c;
+    display: flex;
+    align-items: center;
 }
 .img_debug{
     width: 16.25rem;
