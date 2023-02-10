@@ -7,5 +7,12 @@ header{
     align-items: center;
 }
 /* main  */
-
+.odd_section{
+    background-color: #1abc9c;
+}
+.img_debug{
+    width: 16.25rem;
+    height: 16.25rem;
+    background-color: black;
+}
 /* footer  */
