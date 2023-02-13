@@ -11,13 +11,17 @@ header{
 .ms_bars-color{
     color: #888888;
 }
-header ul{
+header li{
+    padding-left: 30px;
+}
+/* common */
+ul{
     display: flex;
+    padding-left: 0rem;
 }
 /* typo */
 li{
     list-style: none;
-    padding-left: 30px;
 }
 a{
     text-decoration: none;
@@ -29,15 +33,23 @@ a{
     font-size: 1.25rem;
 }
 /* main  */
-.odd_section{
+.ms_odd-section{
     background-color: #1abc9c;
-    display: flex;
-    align-items: center;
+    color: white;
 }
-.img_debug{
+.ms_odd-section img{
     width: 16.25rem;
-    height: 16.25rem;
-    background-color: black;
+    height: 14.375rem;
+}
+.ms_designer::after,
+.ms_designer::before{
+    content: "-";
+    padding: 0 .3125rem;
+}
+.ms_hr{
+    background-color: white;
+    height: .25rem;
+    width: 37%;
 }
 /* footer  */
 .footer_top{
