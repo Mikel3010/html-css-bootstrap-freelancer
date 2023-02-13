@@ -65,11 +65,31 @@ a{
 #portfolio i{
     color: #2c3e50;
 }
+/* terza sezione  */
+.ms_button{
+    background-color: #1abc9c;
+    border: .0625rem solid white;
+}
+/* quarta sezione */
+.ms_button-send{
+    background-color: #1abc9c;
+    border-style: none;
+}
 /* footer  */
-.footer_top{
+.ms_footer-top{
     background-color: #3a546d;
+    color: white;
+}
+.ms_footer-top i{
+    font-size: 1.25rem;
+    background-color: #3a546d;
+    color: white;
+}
+.ms_color-p{
+    color: #1abc9c;
 }
 .footer_bottom{
     background-color: #2c3e50;
     height: 6.875rem;
+    color: white;
 }
